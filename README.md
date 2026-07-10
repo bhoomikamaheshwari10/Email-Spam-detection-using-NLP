@@ -80,6 +80,19 @@ All three feature extraction techniques were evaluated using the same classifier
 Logistic Regression is an efficient supervised learning algorithm commonly used for binary classification problems such as spam detection.
 
 ---
+## Application
+
+A simple and interactive web application was developed using **Streamlit** to demonstrate the spam detection model.
+
+### Features
+
+- Select the feature extraction technique:
+  - CountVectorizer
+  - TF-IDF
+  - Average Word2Vec
+- Enter an email message for classification.
+- Predict whether the message is **Spam** or **Ham**.
+- Compare predictions generated using different feature extraction methods.
 
 ## Workflow
 
